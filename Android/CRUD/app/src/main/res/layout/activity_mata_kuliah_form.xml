@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-    tools:context=".MainActivity">
+    tools:context=".mataKuliah.MataKuliahForm">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,34 +16,49 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="16dp">
 
+        <TextView
+            android:id="@+id/txtKodeMatkul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Kode Matkul"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edtKodeMatkul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtUUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Nama Mata Kuliah"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
         <Button
-            android:id="@+id/btnMahasiswa"
+            android:id="@+id/btnSave"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:background="#32CD32"
-            android:text="Mahasiswa"
+            android:text="Simpan"
             android:textColor="#ffffff" />
 
         <Button
-            android:id="@+id/btnDosen"
+            android:id="@+id/btnDel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:background="#32CD32"
-            android:text="Dosen"
-            android:textColor="#ffffff" />
-
-        <Button
-            android:id="@+id/btnMatkul"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:background="#32CD32"
-            android:text="Mata Kuliah"
+            android:background="#FF0000"
+            android:text="Hapus"
             android:textColor="#ffffff" />
 
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-

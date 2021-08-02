@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/mahasiswa"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Message"></item>
+        <item android:id="@+id/dosen"
+            android:icon="@drawable/ic_baseline_how_to_reg_24"
+            android:title="Message"></item>
+        <item android:id="@+id/matakuliah"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Message"></item>
+    </group>
+</menu>

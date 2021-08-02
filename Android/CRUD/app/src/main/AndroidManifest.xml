@@ -11,7 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CRUD">
-        <activity android:name=".UserActivity"></activity>
+        <activity android:name=".mataKuliah.MataKuliahForm"/>
+        <activity android:name=".mataKuliah.MataKuliahActivity" />
+        <activity android:name=".dosen.DosenForm" />
+        <activity android:name=".dosen.DosenActivity"/>
+        <activity android:name=".mahasiswa.MahasiswaForm" />
+        <activity android:name=".mahasiswa.MahasiswaActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
