@@ -10,7 +10,7 @@
 
 CREATE TABLE `mahasiswa` (
   `id` int(11) NOT NULL,
-  `NoInduk` varchar(4) NOT NULL,
+  `NoInduk` varchar(10) NOT NULL,
   `Nama` varchar(250) NOT NULL,
   `TahunMasuk` varchar(4) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
@@ -47,7 +47,7 @@ ALTER TABLE `mahasiswa`
 
 CREATE TABLE `dosen` (
   `id` int(11) NOT NULL,
-  `NoInduk` varchar(4) NOT NULL,
+  `NoInduk` varchar(10) NOT NULL,
   `Nama` varchar(250) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
@@ -83,7 +83,7 @@ ALTER TABLE `dosen`
 
 CREATE TABLE `mata_kuliah` (
   `id` int(11) NOT NULL,
-  `KodeMatkul` varchar(4) NOT NULL,
+  `KodeMatkul` varchar(10) NOT NULL,
   `Nama` varchar(250) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
